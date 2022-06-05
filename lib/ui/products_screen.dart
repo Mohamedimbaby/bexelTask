@@ -164,7 +164,7 @@ class _ProductsScreenState extends State<ProductsScreen> {
                               borderRadius: BorderRadius.circular(32)
                             ),
                             child: Container(
-                              height: Dimensions.height * .23,
+                              height: Dimensions.height * .25,
                               padding: const EdgeInsets.symmetric(horizontal: 20 , vertical: 10),
                               decoration:  BoxDecoration(
                                 color: Colors.white,
