@@ -264,7 +264,8 @@ List<String> selectedCities = [];
 
 // getting a directory path for saving
     final Directory directory = await getApplicationDocumentsDirectory();
-    final File newImage = await File(image!.path).copy('${directory.path}/image1.png');
+    print(image!.path);
+    final File newImage = await File(image.path);
     // Capture a photo
     imagePath.sink.add(newImage.path);
 
